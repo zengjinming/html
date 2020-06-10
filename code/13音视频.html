@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- 
+    audio 标签是用来向页面中引入一个外部的音频文件
+          音视频文件引入时，默认情况下不许用户自己控制播放停止
+
+    属性：
+        controls 是否许用户控制播放
+        autoplay 音频文件是否自动播放
+                 如果设置了autoplay，则音乐在打开页面时自动播放
+                 但是一般浏览器不会自动对音乐播放
+        loop     循环播放
+ -->
+<audio src="./yinyue/1.mp3" controls  ></audio>
+
+<!-- 
+    除了通过src来指定外部文件的路径以外，还可以通过source来指定文件路径
+ -->
+<br><br>
+<audio controls>
+    <source src="./yinyue/2.mp3">
+</audio>
+
+
+</body>
+</html>

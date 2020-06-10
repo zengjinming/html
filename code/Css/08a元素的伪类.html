@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 
+        .red{
+             color: red;
+         }
+         */
+        
+        
+        /* 
+           :link 用来表示没访问过的链接
+           :visited 用来表示访问过的链接
+               由于隐私的原因，所以这个伪类只能修改链接的颜色
+
+            :hover 用来表示鼠标移入的状态
+
+            :active 用于表示鼠标点击
+         */
+
+         a:link{
+             color: red;
+         }
+
+         a:visited{
+             color: blue;
+         }
+
+         a:hover{
+             color: olivedrab;
+             font-size: 20px;
+         }
+
+         a:active{
+             color: orchid;
+         }
+
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 
+        1.访问过的链接
+        2.没有访问过的链接
+
+     -->
+    
+    <a href="./01css简介.html">访问过的链接</a>
+    <br><br>
+    <a href="https://www.baidu.com/">没访问过的链接</a>
+
+</body>
+</html>
